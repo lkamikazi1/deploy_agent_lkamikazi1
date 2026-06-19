@@ -1,6 +1,6 @@
 deploy_agent_lkamikazi1
-##Project Preview
-A  a shell script that automates the creation of the workspace, configures settings via the command line, and handles system signals gracefully.
+## Project Preview
+A shell script that automates the creation of the workspace, configures settings via the command line, and handles system signals gracefully for a Student attendance tracker project.
 ## Instructions on how to run
 1. bash setup_project.sh
 2. Enter project name (U can use v1)
