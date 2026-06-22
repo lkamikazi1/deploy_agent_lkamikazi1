@@ -145,16 +145,16 @@ fi
 
 echo "Directory structure confirmed"
 
-for path in \
+for track in \
 	"$Project_IaC/attendance_checker.py" \
 	"$Project_IaC/Helpers/assets.csv" \
 	"$Project_IaC/Helpers/config.json" \
 	"$Project_IaC/reports/reports.log"
 do 
-	if [ -f "$path" ]; then
-		echo " Done $path"
+	if [ -f "$track" ]; then
+		echo " Done $track"
 	else
-		echo " Missing: $path"
+		echo " Missing: $track"
 	fi
 done
 
